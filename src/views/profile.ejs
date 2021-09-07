@@ -1,14 +1,14 @@
 <%- include('header.ejs') %>
-
+<h1>
+  Profile
+</h1>
   <div class='container'>
-    <h1>
-      Profile
-    </h1>
-    <%=user.name %>
-      <%=user.username%>
-        <%=user.phone%>
-          <%=user.email%>
-            <%=user.address%>
+
+    <p><%=user.name %></p>
+    <p><%=user.username%></p>
+    <p><%=user.phone%></p>
+    <p><%=user.email%></p>
+    <p><%=user.address%></p> 
   </div>
   <br>
   <a href='/'>Back to Account Summary</a>
